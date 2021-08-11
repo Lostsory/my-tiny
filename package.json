@@ -1,0 +1,14 @@
+{
+  "name": "tinypng",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "bin": {
+    "tiny": "bin/tiny.js"
+  },
+  "repository": "https://git.bg.huohua.cn/qinzhenxin/tinypng.git",
+  "author": "qinzhenxin <2462393505@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.1.0"
+  }
+}
