@@ -5,6 +5,12 @@
   "bin": {
     "tiny": "bin/tiny.js"
   },
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npm.bg.huohua.cn"
+  },
   "repository": "https://git.bg.huohua.cn/qinzhenxin/tinypng.git",
   "author": "qinzhenxin <2462393505@qq.com>",
   "license": "MIT",
@@ -14,5 +20,8 @@
     "ora": "^5.4.1",
     "simple-git": "^2.42.0",
     "tinify": "^1.6.0-beta.2"
+  },
+  "devDependencies": {
+    "semantic-release": "^18.0.1"
   }
 }
