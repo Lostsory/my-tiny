@@ -1,27 +1,17 @@
 {
-  "name": "tinypng",
+  "name": "my-tiny",
   "version": "1.0.0",
   "main": "lib/index.js",
   "bin": {
     "tiny": "bin/tiny.js"
   },
-  "scripts": {
-    "release": "semantic-release"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npm.bg.huohua.cn"
-  },
-  "repository": "https://git.bg.huohua.cn/qinzhenxin/tinypng.git",
-  "author": "qinzhenxin <2462393505@qq.com>",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": "https://github.com/Lostsory/my-tiny",
   "license": "MIT",
   "dependencies": {
     "commander": "^8.1.0",
     "execa": "^5.1.1",
     "ora": "^5.4.1",
-    "simple-git": "^2.42.0",
     "tinify": "^1.6.0-beta.2"
-  },
-  "devDependencies": {
-    "semantic-release": "^18.0.1"
   }
 }
