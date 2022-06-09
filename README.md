@@ -4,7 +4,7 @@
 
 Install through npm:
 ```
-npm install --g my-tiny
+npm install -g my-tiny
 tiny c -key <your tinyPng's appkey>
 ```
 
