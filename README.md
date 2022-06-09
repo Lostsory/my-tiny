@@ -24,5 +24,5 @@ git commit -m <msg>
 
 Your contributions and suggestions are heartily welcome.
 
-## License
-MIT
+<!-- ## License
+MIT -->
