@@ -5,12 +5,17 @@
   "bin": {
     "tiny": "bin/tiny.js"
   },
+  "keywords": [
+    "tiny",
+    "git",
+    "tinypng"
+  ],
   "repository": "https://github.com/Lostsory/my-tiny",
   "license": "MIT",
   "dependencies": {
     "commander": "^8.1.0",
     "execa": "^5.1.1",
     "ora": "^5.4.1",
-    "tinify": "^1.6.0-beta.2"
+    "tinify": "^1.6.1"
   }
 }
