@@ -1,6 +1,6 @@
 {
   "name": "my-tiny",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "bin": {
     "tiny": "bin/tiny.js"
@@ -8,7 +8,9 @@
   "keywords": [
     "tiny",
     "git",
-    "tinypng"
+    "tinypng",
+    "yorkie",
+    "image"
   ],
   "repository": "https://github.com/Lostsory/my-tiny",
   "license": "MIT",
@@ -17,5 +19,6 @@
     "execa": "^5.1.1",
     "ora": "^5.4.1",
     "tinify": "^1.6.1"
-  }
+  },
+  "devDependencies": {}
 }
