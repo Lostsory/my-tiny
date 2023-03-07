@@ -12,7 +12,10 @@ npm install my-tiny -S
 #### 项目根目录新建.tiny文件，内容如下：
 ```
 {
-  "tinifyKey": [APIKey1, APIKey2]
+  "tinifyKey": [APIKey1, APIKey2],
+  "ignore": [
+    "dist"
+  ]
 }
 ```
 可以设置多个, my-tiny会轮询使用所有配置的apikey

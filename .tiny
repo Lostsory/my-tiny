@@ -1,3 +1,5 @@
 {
-  "tinifyKey": []
+  "tinifyKey": [],
+  "ignore": [
+  ]
 }
